@@ -306,7 +306,8 @@ local function update<T>(input: types.Input<T>)
 	end
 end
 
-local function new<T>(inputMap: types.Map<T> & { deadzone: number? }): types.Input<T>
+-- Added a parameter of deadzone for roblox-ts typings!
+local function new<T>(inputMap: types.Map<T>, deadzone: number?): types.Input<T>
 	local input: types.Input<T> = {
 		vector = false,
 		current = {},
@@ -317,7 +318,8 @@ local function new<T>(inputMap: types.Map<T> & { deadzone: number? }): types.Inp
 		resets = {}, --resets input on next update
 		connections = {},
 		inputMap = inputMap,
-		deadzone = inputMap.deadzone,
+		--Changed deadzone = inputMap.deadzone to deadzone parameter for roblox-ts typings!
+		deadzone = deadzone,
 
 		read = read,
 		pressing = pressing,

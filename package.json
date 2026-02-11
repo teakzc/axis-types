@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/axis",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "roblox-ts typings for NeonD00m/axis",
   "main": "out/init.lua",
   "scripts": {
