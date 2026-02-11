@@ -47,7 +47,7 @@ export function device(inputType?: Enum.UserInputType): DeviceType;
  *
  * @param inputs A array of `Input` to update,
  */
-export function update(inputs: Input<defined>[]): void;
+export function update(inputs: Input<unknown>[]): void;
 
 /**
  * Creates a new input axis with the provided keymap

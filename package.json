@@ -1,41 +1,41 @@
 {
-  "name": "@rbxts/axis",
-  "version": "0.2.4",
-  "description": "roblox-ts typings for NeonD00m/axis",
-  "main": "out/init.lua",
-  "scripts": {
-    "build": "rbxtsc",
-    "watch": "rbxtsc -w",
-    "prepublishOnly": "npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/teakzc/axis-types.git"
-  },
-  "homepage": "https://neond00m.github.io/Axis/",
-  "keywords": [],
-  "author": "teakzc",
-  "license": "MIT",
-  "type": "commonjs",
-  "types": "out/index.d.ts",
-  "files": [
-    "out",
-    "!**/*.tsbuildinfo"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "devDependencies": {
-    "@rbxts/compiler-types": "^3.0.0-types.0",
-    "@rbxts/types": "^1.0.906",
-    "@typescript-eslint/eslint-plugin": "^8.55.0",
-    "@typescript-eslint/parser": "^8.55.0",
-    "eslint": "^9.39.2",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.5.5",
-    "eslint-plugin-roblox-ts": "^1.3.1",
-    "prettier": "^3.8.1",
-    "roblox-ts": "^3.0.0",
-    "typescript": "^5.9.3"
-  }
+	"name": "@rbxts/axis",
+	"version": "0.2.5",
+	"description": "roblox-ts typings for NeonD00m/axis",
+	"main": "out/init.lua",
+	"scripts": {
+		"build": "rbxtsc",
+		"watch": "rbxtsc -w",
+		"prepublishOnly": "npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/teakzc/axis-types.git"
+	},
+	"homepage": "https://neond00m.github.io/Axis/",
+	"keywords": [],
+	"author": "teakzc",
+	"license": "MIT",
+	"type": "commonjs",
+	"types": "out/index.d.ts",
+	"files": [
+		"out",
+		"!**/*.tsbuildinfo"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"@rbxts/compiler-types": "^3.0.0-types.0",
+		"@rbxts/types": "^1.0.906",
+		"@typescript-eslint/eslint-plugin": "^8.55.0",
+		"@typescript-eslint/parser": "^8.55.0",
+		"eslint": "^9.39.2",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-plugin-prettier": "^5.5.5",
+		"eslint-plugin-roblox-ts": "^1.3.1",
+		"prettier": "^3.8.1",
+		"roblox-ts": "^3.0.0",
+		"typescript": "^5.9.3"
+	}
 }
