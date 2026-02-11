@@ -32,8 +32,8 @@ roblox-ts typings for [axis](https://neond00m.github.io/Axis/)
 		resets = {}, --resets input on next update
 		connections = {},
 		inputMap = inputMap,
-        - deadzone = inputMap.deadzone
-		+ deadzone = deadzone,
+-       deadzone = inputMap.deadzone
++       deadzone = deadzone,
 
 		read = read,
 		pressing = pressing,
